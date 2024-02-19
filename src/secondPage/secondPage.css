@@ -1,0 +1,16 @@
+.form-container{
+    border: 1px solid #000000;
+    padding: 30px;
+    line-height: 2em;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.h2-second-page{
+    color:blue;
+    padding: 40px 0px;
+}
