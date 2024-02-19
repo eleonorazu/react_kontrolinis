@@ -3,18 +3,17 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 
-export const NavigationElement =()=>{
+export const NavigationElement = () => {
   return (
 
-<Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-       );
-      };
+    <Navbar bg="light" data-bs-theme="light">
+      <Container>
+        <Navbar.Brand href="/">Navbar</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="/registration">Book Registration</Nav.Link>
+          <Nav.Link href="/bookreview">Bookreview</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+  );
+};
